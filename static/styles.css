@@ -232,6 +232,16 @@ body {
     }
 }
 
+/* History Styles */
+
+#history-section {
+    background-color: cyan;
+}
+
+.model img {
+    width: 35%;
+}
+
 
 /* Subscribe Styles */
 
