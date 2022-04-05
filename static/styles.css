@@ -235,11 +235,30 @@ body {
 /* History Styles */
 
 #history-section {
-    background-color: cyan;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.model img {
-    width: 35%;
+#history-title {
+    font-size: 2rem;
+}
+
+#ignis-mk1, #ignis-sport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#ignis-description {
+    width: 40%;
+}
+
+#ignis-mk1 img, #ignis-sport img {
+    width: 50%;
 }
 
 
