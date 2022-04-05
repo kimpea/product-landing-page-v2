@@ -217,7 +217,7 @@ body {
 
 /* Subscribe Styles */
 
-#subscribe-section {
+#contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +225,7 @@ body {
     background-color: orange;
 }
 
-#subscribe-section h3 {
+#contact h3 {
     margin: 0;
 }
 
