@@ -200,6 +200,23 @@ body {
     font-weight: bold;
 }
 
+#enquire {
+    background-color: #ffa500;
+    border-radius: 0px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
+    outline: none;
+    padding: 10px 16px;
+}
+
+#enquire a {
+    text-decoration: none;
+    color: black;
+}
+
 @media (max-width: 650px) {
     #pricing {
         flex-direction: column;
@@ -222,7 +239,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px 0px;
-    background-color: orange;
+    background-color: #ffa500;
 }
 
 #contact h3 {
