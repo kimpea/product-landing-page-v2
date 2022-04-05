@@ -75,6 +75,7 @@
                     <li>16" alloy wheels</li>
                     <li>Roof Rails, Wheel Arch Extensions & Side Mouldings</li>
                 </ul>
+                <a href="#contact">Enquire Now</a>
             </div>
             <div class="pricing-item">
                 <h3>SZ-T</h3>
@@ -99,17 +100,21 @@
             </div>
         </section>
 
-        <section id="subscribe-section">
-            <h3>Subscribe for regular updates</h3>
+        <section id="contact">
+            <h3>Get In Touch</h3>
             <form id="form">
-                <input
-                    name="email"
-                    id="email"
-                    type="email"
-                    placeholder="Enter your email address"
-                    required
-                />
-                <input id="submit" type="submit" value="Subscribe"/>
+                <input type="text" id="first-name" placeholder="First Name" required>
+                <input type="text" id="last-name" placeholder="Last Name" required>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <p class="question">What is you like to find out more about?</p>
+                <select id="dropdown" name="enquiry" class="form-control" required>
+                    <option disabled selected value>Select Enquiry</option>
+                    <option value="Suzuki Ignis">Suzuki Ignis</option>
+                    <option value="Suzuki Ignis Sport">Suzuki Ignis Sport</option>
+                    <option value="Suzuki Swift">Suzuki Swift</option>
+                </select>
+
+                <textarea placeholder="Type your message here..."></textarea>
             </form>
         </section>
 
