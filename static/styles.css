@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 body {
     background-color: white;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Questrial', sans-serif;
+    margin: auto;
 }
 
 #nav-bar {
@@ -25,7 +26,46 @@ body {
     color: black;
 }
 
+.nav-list-item a:hover {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #header-img {
     width: 15%;
+}
+
+#intro-section {
+    text-align: center;
+    background-color: red;
+}
+
+#intro-section h1 {
+    margin: 0;
+    padding: 20px 0px;
+}
+
+#shop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: yellow;
+    padding: 20px 0px;
+}
+
+.shop-item {
+    width: 25%;
+    text-align: center;
+    background-color: pink;
+}
+
+.shop-item-description {
+    padding: 0px 10px;
+}
+
+#video-section {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
 }
 
