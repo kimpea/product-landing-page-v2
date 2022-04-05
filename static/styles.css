@@ -60,7 +60,8 @@ body {
 
 #intro-section {
     text-align: center;
-    background-color: red;
+    background-color: white;
+    font-size: 1.3rem;
 }
 
 #intro-section h1 {
@@ -75,9 +76,27 @@ body {
     }
 }
 
-/* Shop Styles */
+/* Ignis Mk3 Section */
 
-#shop {
+#ignis-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 20px 10px;
+}
+
+#ignis-description {
+    width: 40%;
+}
+
+#ignis-mk3-image {
+    width: 40%;
+}
+
+/* Features Styles */
+
+#features {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -85,25 +104,25 @@ body {
     padding: 20px 0px;
 }
 
-.shop-item {
+.feature-item {
     width: 25%;
     text-align: center;
     background-color: pink;
 }
 
-.shop-item-description {
+.feature-description {
     padding: 0px 10px;
 }
 
 @media (max-width: 650px) {
-    #shop {
+    #features {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 10px 0px;
         font-size: 0.75rem;
     }
-    .shop-item {
+    .feature-item {
         width: 90%;
         margin: 10px 0px;
     }
@@ -113,13 +132,18 @@ body {
 
 #video-section {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
     background-color: cyan;
-    padding: 20px 10px;
+    padding: 30px;
+}
+
+#video-section h3 {
+    margin: 0px 0px 10px 0px;
 }
 
 #video-description {
-    width: 40%;
+    text-align: center;
 }
 
 @media (max-width: 650px) {
