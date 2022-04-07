@@ -13,11 +13,10 @@
         <nav id="nav-bar">
             <img id="header-img" src="static/img/ignis-logo.PNG" alt="logo">
             <ul class="nav-list">
-                <li class="nav-list-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-list-item"><a class="nav-link" href="#">New Models</a></li>
-                <li class="nav-list-item"><a class="nav-link" href="#">Pricing</a></li>
-                <li class="nav-list-item"><a class="nav-link" href="#">Older Models</a></li>
-                <li class="nav-list-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#intro-section">Home</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#history-section">Older Models</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,7 +26,7 @@
         </section>
         
         <section id="ignis-section">
-            <div id="ignis-description">
+            <div id="new-ignis-description">
                 <h2>Suzuki Ignis</h2>
                 <p>Distinctive small car, with strong SUV styling; it’s compact, light and efficient, but has big personality and an adventurous spirit. 
                 It’s small enough to fit easily into a space outside your favourite hangout, but inside it’s surprisingly spacious.</p>
@@ -107,7 +106,7 @@
 
             <div class="model" id="ignis-mk1">
                 <img src="static/img/ignis-mk1-1.png" alt="Ignis Mk 2">
-                <div id="ignis-description">
+                <div class="ignis-description">
                     <h3>Ignis (2000 - 2006)</h3>
                     <p>Category killers, segment busters, call 'em what you like, but the Suzuki Ignis is a prime exponent. 
                         The first reaction of many would be to question quite what it thinks it is. 
@@ -117,7 +116,7 @@
             </div>
 
             <div class="model" id="ignis-sport">
-                <div id="ignis-description">
+                <div class="ignis-description">
                     <h3>Ignis Sport (2003 - 2005)</h3>
                     <p>
                         Following its use in the 2002 World Rally Championship season, Suzuki introduced the Ignis Sport in 2003, a performance-oriented version based on the three-door body style. 
@@ -134,8 +133,8 @@
         </section>
 
         <section id="contact">
-            <h3>Get In Touch</h3>
             <div id="contact-form-container">
+                <h3>Get In Touch</h3>
                 <form id="contact-form">
                     <input type="text" id="first-name" name="first-name" value="First Name" required>
                     <input type="text" id="last-name" name="last-name" value="Last Name" required>
@@ -144,7 +143,14 @@
                     <input type="submit" value="Submit">
                 </form>
             </div>
-
+            <div id="contact-address-container">
+                <ul id="address-details">
+                    <li><b>Ignis Central - Crawley</b></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Fleming Way, Crawley, RH10 9JY</li>
+                    <li><i class="fa-solid fa-phone"></i> 01293 414000</li>
+                    <li><i class="fa-solid fa-envelope"></i> enquire@igniscentral.com</li>
+                </ul>
+            </div>
         </section>
 
     </main>
