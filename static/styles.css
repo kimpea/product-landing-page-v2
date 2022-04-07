@@ -11,6 +11,9 @@ body {
 #nav-bar {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .nav-list {
@@ -333,7 +336,7 @@ body {
     font-size: 1.6rem;
 }
 
-#contact-form {
+#form {
     display: flex;    
     flex-direction: column;
     align-items: center;
